@@ -1,6 +1,16 @@
-# Check if a number is even or odd
-num = int(input("Enter a number: "))
-if num % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
+name = "Thulasi"
+kind = True
+intelligent = True
+friendly = True
+
+if name == "Thulasi":
+    print("Girl Name:", name)
+
+    if kind:
+        print("Thulasi is kind.")
+
+    if intelligent:
+        print("Thulasi is intelligent.")
+
+    if friendly:
+        print("Thulasi is friendly.")
